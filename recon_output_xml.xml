@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><doc>
+<schemaId>UBS9861</schemaId>
+
+<feeds>
+	<feed name="feed1">
+
+		<tag1>text in feed1-tag1</tag1>
+		<tag2>
+			<feature>id1</feature>
+			<feature>id2</feature>
+			<feature>id3</feature>
+		<feature>I am in feed 1 feature!!!</feature></tag2>
+
+		<enrichments>
+
+			<enrichment>text in feed1-enrichment</enrichment>
+
+		<enrichment>enrich1</enrichment></enrichments>
+		
+		<key>Obfuscate(toString(column1)+"#"+column2+"#"+column3+"#"+you are in feed 1 key!!)</key>
+
+	</feed>
+
+	<feed name="feed2">
+
+		<tag1>text in feed2-tag1</tag1>
+		<tag2>
+			<feature>id1</feature>
+			<feature>id2</feature>
+			<feature>id3</feature>
+		<feature>I am in feed 2 feature!!!</feature></tag2>
+
+		<enrichments>
+
+			<enrichment>text in feed2-enrichment</enrichment>
+
+		<enrichment>you are in feed 2 enrichment!!</enrichment></enrichments>
+		
+		<key>Obfuscate(toString(column1)+"#"+column2+"#"+column3+"#"+you are in feed 2 key!!)</key>
+
+	</feed>
+	
+	<feed name="feed3">
+
+		<tag1>text in feed3-tag1</tag1>
+		<tag2>
+			<feature>id1</feature>
+			<feature>id2</feature>
+			<feature>id3</feature>
+		<feature>I am in feed 3 feature!!!</feature></tag2>
+
+		<enrichments>
+
+			<enrichment>text in feed3-enrichment</enrichment>
+
+		<enrichment>you are in feed 3 enrichment!!</enrichment></enrichments>
+		
+		<key>Obfuscate(toString(column1)+"#"+column2+"#"+column3+"#"+you are in feed 3 key!!)</key>
+
+	</feed>
+</feeds>
+	
+</doc>
